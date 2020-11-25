@@ -61,7 +61,17 @@ Fit the model and show the performance results whithin a table for each models i
 
 How many input data the algorithms needs the be efficient (and why) ? 
 
-**4) Gradient descent ?**
+4) Multi-class classification
+
+Fit now the algorithm in the multiclass case (ie using all the the classes (target)).
+
+Show the result with
+
+the confusion matrix (see sklearn.metrics.plot_confusion_matrix)
+the classification report (see sklearn.metrics.classification_report)
+
+
+**5) Gradient descent ?**
 
 We want to observe the convergence of the performance.
 To do so, we want to implement our own version of the Logistic regression inference algorithm.
